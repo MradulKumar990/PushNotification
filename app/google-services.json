@@ -1,0 +1,33 @@
+{
+  "project_info": {
+    "project_number": "482746926380",
+    "firebase_url": "https://pushnotification-155406.firebaseio.com",
+    "project_id": "pushnotification-155406",
+    "storage_bucket": "pushnotification-155406.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482746926380:android:5a71eb9b011d5671",
+        "android_client_info": {
+          "package_name": "com.mradul.notificaton.pushnotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
