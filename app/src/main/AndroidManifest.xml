@@ -19,6 +19,16 @@
     </activity>
 
     <receiver android:name=".AlarmReceiver"/>
+
+
+    <service android:name=".MyService"/>
+
+    <receiver android:name=".ReRegisterBroadcast">
+      <intent-filter>
+        <action android:name="com.android.shekharkg"/>
+        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+      </intent-filter>
+    </receiver>
   </application>
 
 </manifest>
